@@ -1,0 +1,26 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 20rem;
+  height: 5rem;
+}
+.header-menu > li:hover {
+  cursor: pointer;
+  color: #ff9800;
+}
+.calories {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: fit-content;
+  position: absolute;
+  top: 28rem;
+  right: 42rem;
+}
+.calories > img {
+  width: 7rem;
+  position: absolute;
+  right: -1rem;
+}

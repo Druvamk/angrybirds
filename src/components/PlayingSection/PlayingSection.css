@@ -1,0 +1,15 @@
+.playing {
+  margin-top: 100px;
+  padding: 0 2rem;
+  display: flex;
+  gap: 40rem;
+  z-index: 2;
+  justify-content: space-evenly;
+}
+.playing-left > img {
+  width: 30rem;
+  margin-top: 200px;
+}
+.playing-right > img {
+  width: 15rem;
+}
